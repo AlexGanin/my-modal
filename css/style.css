@@ -1,0 +1,53 @@
+.gmodal {
+
+}
+
+.gmodal.open .modal-window {
+    transform: translateY(300px);
+}
+
+.gmodal.open .modal-overlay {
+    opacity: 1;
+}
+
+.gmodal .modal-overlay {
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: .3s ease-in;
+}
+
+.gmodal .modal-window {
+    background: #fff;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    transform: translateY(-300px);
+    transition: .3s ease-in;
+}
+
+.gmodal .modal-header {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.gmodal .modal-header .modal-x {
+    cursor: pointer;
+}
+
+.gmodal .modal-body {
+    padding: 5px 10px;
+}
+
+.gmodal .modal-footer {
+    padding: 5px 10px;
+    border-top: 1px solid #ededed;
+}
