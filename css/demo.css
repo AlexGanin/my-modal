@@ -1,0 +1,27 @@
+#block-fruits {
+    text-align: center;
+}
+
+#block-fruits #fruits {
+    display: flex;
+    justify-content: space-around;
+}
+
+#block-fruits #fruits .item {
+    margin: 0 15px;
+}
+
+#block-fruits #fruits .item .item-title {
+    margin: 5px;
+    text-align: center;
+}
+
+#block-fruits #fruits .item img {
+    width: auto;
+    height: 200px; 
+}
+
+#block-fruits #fruits .item button {
+    width: 100%;
+    margin: 5px;
+}

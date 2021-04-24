@@ -8,6 +8,7 @@
 
 .gmodal.open .modal-overlay {
     opacity: 1;
+    z-index: 1000;
 }
 
 .gmodal .modal-overlay {
